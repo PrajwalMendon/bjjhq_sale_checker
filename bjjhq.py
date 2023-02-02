@@ -19,7 +19,3 @@ if text in sale[1].lower():
     shortcut = shell.CreateShortCut(path)
     shortcut.Targetpath = url
     shortcut.save()
-
-# if text in sale[1].lower():
-#     with open(win_path, 'w') as f:
-#         f.write(url)
